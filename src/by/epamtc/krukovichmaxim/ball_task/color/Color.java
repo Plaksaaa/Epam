@@ -1,4 +1,4 @@
-package by.epamtc.krukovichmaxim.ball_task;
+package by.epamtc.krukovichmaxim.ball_task.color;
 
 import by.epamtc.krukovichmaxim.ball_task.exception.ColorException;
 

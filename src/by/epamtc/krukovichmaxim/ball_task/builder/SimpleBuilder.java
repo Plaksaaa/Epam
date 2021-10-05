@@ -1,6 +1,6 @@
 package by.epamtc.krukovichmaxim.ball_task.builder;
 
-import by.epamtc.krukovichmaxim.ball_task.Color;
+import by.epamtc.krukovichmaxim.ball_task.color.Color;
 import by.epamtc.krukovichmaxim.ball_task.entity.Ball;
 import by.epamtc.krukovichmaxim.ball_task.entity.Basket;
 import by.epamtc.krukovichmaxim.ball_task.exception.ColorException;
