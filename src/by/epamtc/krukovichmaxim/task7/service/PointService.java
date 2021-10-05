@@ -17,5 +17,4 @@ public class PointService {
     private double calculatePointDistance(Point point) {
         return (Math.pow(point.getX(), 2) + Math.pow(point.getY(), 2));
     }
-
 }

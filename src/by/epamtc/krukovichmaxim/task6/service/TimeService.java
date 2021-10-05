@@ -2,6 +2,9 @@ package by.epamtc.krukovichmaxim.task6.service;
 
 public class TimeService {
 
+    private TimeService(){
+    }
+
     public static int calculateMinutes(double seconds){
         return (int) seconds/1440;
     }

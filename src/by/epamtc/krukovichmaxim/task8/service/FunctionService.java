@@ -11,7 +11,7 @@ public class FunctionService {
     }
 
     private double calculateFirstWay(double x){
-        return (double) Math.pow(-x, 2) + 3 * x + 9;
+        return Math.pow(-x, 2) + 3 * x + 9;
     }
 
     private double calculateSecondWay(double x){
