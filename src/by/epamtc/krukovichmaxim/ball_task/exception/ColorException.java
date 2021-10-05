@@ -1,4 +1,4 @@
-package by.epamtc.krukovichmaxim.ball_task;
+package by.epamtc.krukovichmaxim.ball_task.exception;
 
 public class ColorException extends Throwable {
     public ColorException() {

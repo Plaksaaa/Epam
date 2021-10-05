@@ -1,4 +1,6 @@
-package by.epamtc.krukovichmaxim.ball_task;
+package by.epamtc.krukovichmaxim.ball_task.entity;
+
+import by.epamtc.krukovichmaxim.ball_task.Color;
 
 import java.util.List;
 import java.util.Objects;

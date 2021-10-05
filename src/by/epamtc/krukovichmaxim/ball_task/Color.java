@@ -1,5 +1,7 @@
 package by.epamtc.krukovichmaxim.ball_task;
 
+import by.epamtc.krukovichmaxim.ball_task.exception.ColorException;
+
 public enum Color {
     RED,
     BLUE,
