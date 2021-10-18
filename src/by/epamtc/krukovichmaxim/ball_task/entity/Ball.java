@@ -2,7 +2,7 @@ package by.epamtc.krukovichmaxim.ball_task.entity;
 
 import by.epamtc.krukovichmaxim.ball_task.color.Color;
 
-import java.util.Objects;
+import static java.util.Objects.hash;
 
 public class Ball {
     private int weight;
@@ -43,12 +43,12 @@ public class Ball {
 
     @Override
     public int hashCode() {
-        return Objects.hash(getWeight(), getColor());
+        return hash(getWeight(), getColor());
     }
 
     @Override
     public String toString() {
-        return "Ball{" +
+        return getClass().getSimpleName() + "{" +
                "weight=" + weight +
                ", color=" + color +
                '}';

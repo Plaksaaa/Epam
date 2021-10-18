@@ -1,7 +1,8 @@
 package by.epamtc.krukovichmaxim.task7.entity;
 
 import java.io.Serializable;
-import java.util.Objects;
+
+import static java.util.Objects.hash;
 
 public class Point implements Serializable {
     private double x;
@@ -39,12 +40,12 @@ public class Point implements Serializable {
 
     @Override
     public int hashCode() {
-        return Objects.hash(getX(), getY());
+        return hash(getX(), getY());
     }
 
     @Override
     public String toString() {
-        return "Point{" +
+        return getClass().getSimpleName() + "{" +
                "x=" + x +
                ", y=" + y +
                '}';

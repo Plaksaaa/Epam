@@ -5,6 +5,8 @@ import by.epamtc.krukovichmaxim.ball_task.color.Color;
 import java.util.List;
 import java.util.Objects;
 
+import static java.util.Objects.*;
+
 public class Basket {
     private Color color;
     private String material;
@@ -55,12 +57,12 @@ public class Basket {
 
     @Override
     public int hashCode() {
-        return Objects.hash(getColor(), getMaterial(), getBalls());
+        return hash(getColor(), getMaterial(), getBalls());
     }
 
     @Override
     public String toString() {
-        return "Basket{" +
+        return getClass().getSimpleName() + "{" +
                "color=" + color +
                ", material='" + material + '\'' +
                ", balls=" + balls +
