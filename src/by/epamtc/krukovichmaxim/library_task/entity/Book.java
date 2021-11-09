@@ -1,10 +1,11 @@
 package by.epamtc.krukovichmaxim.library_task.entity;
 
+import java.io.Serializable;
 import java.util.Objects;
 
 import static java.util.Objects.hash;
 
-public class Book {
+public class Book implements Serializable {
     private int bookId;
     private String author;
     private String title;
